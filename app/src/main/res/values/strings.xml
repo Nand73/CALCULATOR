@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CALCULATOR</string>
+    <string name="normal">Normal</string>
+    <string name="scientific">Scientific</string>
+</resources>

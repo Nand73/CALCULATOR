@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:columnCount="4"
+        android:rowCount="3">
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:text="%"
+            android:textSize="20sp"
+            android:id="@+id/mod"
+            android:textColor="@color/white"
+            android:layout_columnWeight="1"/>
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_columnWeight="1"
+            android:text="("
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:id="@+id/brc1"/>
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:text=")"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:layout_columnWeight="1"
+            android:id="@+id/brc2"/>
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_columnWeight="1"
+            android:text="log"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:id="@+id/log1"/>
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_columnWeight="1"
+            android:text="tan"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:id="@+id/tag1"/>
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:text="cos"
+            android:layout_columnWeight="1"
+            android:id="@+id/tag2"/>
+        <Button
+            android:id="@+id/tag3"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:text="sin"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+
+            android:layout_columnWeight="1"/>
+
+        <Button
+            android:id="@+id/tag4"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:text="ln"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:layout_columnWeight="1"/>
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_columnWeight="1"
+            android:text="√"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:id="@+id/tag5"/>
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:text="x!"
+            android:layout_columnWeight="1"
+            android:id="@+id/tag6"/>
+        <Button
+            android:id="@+id/tag7"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:text="π"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+
+            android:layout_columnWeight="1"/>
+
+
+        <Button
+            android:id="@+id/tag8"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:text="x^2"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:layout_columnWeight="1"/>
+
+
+    </GridLayout>
+
+
+</RelativeLayout>
